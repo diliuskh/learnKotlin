@@ -1,7 +1,7 @@
 
 plugins {
     java
-    kotlin("jvm") version "1.3.61"
+    kotlin("jvm") version "1.4.10"
 }
 
 group = "net.dilius"
@@ -14,9 +14,9 @@ repositories {
 dependencies {
     implementation(kotlin("reflect"))
     implementation(kotlin("stdlib-jdk8"))
-    implementation("org.jetbrains.kotlinx", "kotlinx-coroutines-core", "1.3.3")
-    implementation("org.jetbrains.kotlinx", "kotlinx-coroutines-jdk8", "1.3.3")
-    implementation("org.jetbrains.kotlinx", "kotlinx-coroutines-reactor", "1.3.3")
+    implementation("org.jetbrains.kotlinx", "kotlinx-coroutines-core", "1.3.9")
+    implementation("org.jetbrains.kotlinx", "kotlinx-coroutines-jdk8", "1.3.9")
+    implementation("org.jetbrains.kotlinx", "kotlinx-coroutines-reactor", "1.3.9")
     testImplementation("junit", "junit", "4.12")
 }
 
